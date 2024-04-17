@@ -1,0 +1,12 @@
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\bin\Debug\TrainReservationSystem.exe.config
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\bin\Debug\TrainReservationSystem.exe
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\bin\Debug\TrainReservationSystem.pdb
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\bin\Debug\EntityFramework.dll
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\bin\Debug\EntityFramework.xml
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\obj\Debug\TrainReservationSystem.csproj.AssemblyReference.cache
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\obj\Debug\TrainReservationSystem.csproj.CoreCompileInputs.cache
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\obj\Debug\TrainReservationSystem.csproj.CopyComplete
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\obj\Debug\TrainReservationSystem.exe
+C:\Mini_project\TrainReservationSystem\TrainReservationSystem\obj\Debug\TrainReservationSystem.pdb
