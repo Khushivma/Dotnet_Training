@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event Listener</title>
+</head>
+<body>
+
+    <button id="myButton">Click Here!</button>
+    <p id="message"></p>
+
+    <script>
+
+        var button = document.getElementById('myButton');
+        var messageParagraph = document.getElementById('message');
+
+        button.addEventListener('click', function() {
+            console.log('Buttom Clicked!');
+            // Displaying the text on the user interface...
+            messageParagraph.textContent = 'Button clicked!';
+        });
+    </script>
+
+</body>
+</html>

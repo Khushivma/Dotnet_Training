@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication and Division Calculator</title>
+</head>
+<body>
+
+    <h2>Calculator:</h2>
+    <label for="firstNumber">1st Number:</label>
+    <input type="number" id="firstNumber"><br><br>
+
+    <label for="secondNumber">2nd Number:</label>
+    <input type="number" id="secondNumber"><br><br>
+
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button><br><br>
+
+    <h2>The Result Is:</h2>
+    <div id="result"></div>
+
+    <script>
+    function multiply() {
+        // Get the input values
+        const firstNumber = parseFloat(document.getElementById("firstNumber").value);
+        const secondNumber = parseFloat(document.getElementById("secondNumber").value);
+
+        // Calculate the multiplication
+        const result = firstNumber * secondNumber;
+
+        // Display the result
+        document.getElementById("result").textContent = result;
+    }
+
+    function divide() {
+        // Get the input values
+        const firstNumber = parseFloat(document.getElementById("firstNumber").value);
+        const secondNumber = parseFloat(document.getElementById("secondNumber").value);
+
+        // Check if the second number is not zero
+        if (secondNumber !== 0) {
+            // Calculate the division
+            const result = firstNumber / secondNumber;
+
+            // Display the result
+            document.getElementById("result").textContent = result;
+        } else {
+            // Display an error message if division by zero is attempted
+            document.getElementById("result").textContent = "Cannot divide by zero!";
+        }
+    }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+C:\DotNet_\WebTechnology\Assessment01\Assessment\Assessment\bin\Debug\Assessment.exe.config
+C:\DotNet_\WebTechnology\Assessment01\Assessment\Assessment\bin\Debug\Assessment.exe
+C:\DotNet_\WebTechnology\Assessment01\Assessment\Assessment\bin\Debug\Assessment.pdb
+C:\DotNet_\WebTechnology\Assessment01\Assessment\Assessment\obj\Debug\Assessment.csproj.AssemblyReference.cache
+C:\DotNet_\WebTechnology\Assessment01\Assessment\Assessment\obj\Debug\Assessment.csproj.CoreCompileInputs.cache
+C:\DotNet_\WebTechnology\Assessment01\Assessment\Assessment\obj\Debug\Assessment.exe
+C:\DotNet_\WebTechnology\Assessment01\Assessment\Assessment\obj\Debug\Assessment.pdb

@@ -1,0 +1,38 @@
+﻿<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Even Checker</title>
+</head>
+<body>
+    <h1>Odd Even Checker</h1>
+    <div id="output"></div>
+
+    <script>
+    // Get the div element where the output will be displayed
+    const outputDiv = document.getElementById("output");
+
+    // Iterate from 0 to 15
+    for (let i = 0; i <= 15; i++) {
+        // Create a paragraph element to hold the message
+        const paragraph = document.createElement("p");
+
+        // Check if the current number is odd or even and create the message
+        let message;
+        if (i % 2 === 0) {
+            message = i + " is even";
+        } else {
+            message = i + " is odd";
+        }
+
+        // Set the text content of the paragraph element to the message
+        paragraph.textContent = message;
+
+        // Append the paragraph element to the output div
+        outputDiv.appendChild(paragraph);
+    }
+    </script>
+
+</body>
+</html>
