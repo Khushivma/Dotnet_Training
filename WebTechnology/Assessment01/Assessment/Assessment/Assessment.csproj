@@ -50,7 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HTMLPage1.html" />
+    <Content Include="Calculator.html" />
+    <Content Include="EvenorOdd.html" />
+    <Content Include="Buttom.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,12 @@
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\bin\Debug\TrainResversationSystem.exe.config
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\bin\Debug\TrainResversationSystem.exe
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\bin\Debug\TrainResversationSystem.pdb
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\bin\Debug\EntityFramework.dll
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\bin\Debug\EntityFramework.xml
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\obj\Debug\TrainResversationSystem.csproj.AssemblyReference.cache
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\obj\Debug\TrainResversationSystem.csproj.CoreCompileInputs.cache
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\obj\Debug\TrainResversationSystem.csproj.CopyComplete
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\obj\Debug\TrainResversationSystem.exe
+C:\DotNet_\Mini_Projects\TrainResversationSystem\TrainResversationSystem\obj\Debug\TrainResversationSystem.pdb

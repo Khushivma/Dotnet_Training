@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc74a01bf8bb4d63977b9b94e44573d4" Name="Diagram1">
+        <EntityTypeShape EntityType="TrainRerversationSystemModel.AdminDetail" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrainRerversationSystemModel.Booking" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrainRerversationSystemModel.Cancellation" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrainRerversationSystemModel.Train" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrainRerversationSystemModel.User" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <AssociationConnector Association="TrainRerversationSystemModel.FK__Bookings__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="TrainRerversationSystemModel.FK__Cancellat__Booki__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="TrainRerversationSystemModel.FK__Cancellations__4222D4EF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

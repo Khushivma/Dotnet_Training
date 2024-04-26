@@ -15,10 +15,10 @@
 
     // Iterate from 0 to 15
     for (let i = 0; i <= 15; i++) {
-        // Create a paragraph element to hold the message
+        
         const paragraph = document.createElement("p");
 
-        // Check if the current number is odd or even and create the message
+        
         let message;
         if (i % 2 === 0) {
             message = i + " is even";
@@ -26,7 +26,7 @@
             message = i + " is odd";
         }
 
-        // Set the text content of the paragraph element to the message
+        
         paragraph.textContent = message;
 
         // Append the paragraph element to the output div
