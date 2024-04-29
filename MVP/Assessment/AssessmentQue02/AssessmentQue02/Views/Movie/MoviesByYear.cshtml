@@ -1,0 +1,34 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Movies Released in Year</title>
+</head>
+<body>
+    <div>
+        <h2>Movies Released in @ViewBag.Year</h2>
+        <table>
+            <tr>
+                <th>Movie ID</th>
+                <th>Movie Name</th>
+                <th>Date of Release</th>
+            </tr>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@movie.Mid</td>
+                    <td>@movie.Moviename</td>
+                    <td>@movie.DateofRelease.ToShortDateString()</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>
+

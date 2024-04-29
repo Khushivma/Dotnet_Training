@@ -1,0 +1,2 @@
+C:\DotNet_\MVP\Assessment\AssessmentQue02\AssessmentQue02\obj\Debug\AssessmentQue02.csproj.AssemblyReference.cache
+C:\DotNet_\MVP\Assessment\AssessmentQue02\AssessmentQue02\obj\Debug\AssessmentQue02.csproj.CoreCompileInputs.cache

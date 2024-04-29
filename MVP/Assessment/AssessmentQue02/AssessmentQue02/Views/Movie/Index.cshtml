@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+       
+        @foreach (var movie in Model)
+        {
+            <div>
+                <h2>@movie.Moviename</h2>
+                <p>Date of Release: @movie.DateofRelease.ToShortDateString()</p>
+                <!-- Additional movie details or links to actions -->
+            </div>
+        }
+    </div>
+</body>
+</html>
+

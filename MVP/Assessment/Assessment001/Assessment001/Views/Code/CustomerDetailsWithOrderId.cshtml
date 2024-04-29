@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Customer Details with Order ID 10248</title>
+</head>
+<body>
+    <div>
+        <h2>Customer Details with Order ID 10248</h2>
+        <table>
+            <tr>
+                <th>Customer ID</th>
+                <th>Company Name</th>
+                <th>Country</th>
+                <!-- Add other required columns -->
+            </tr>
+            <tr>
+                <td>@Model.CustomerID</td>
+                <td>@Model.CompanyName</td>
+                <td>@Model.Country</td>
+                <!-- Add other required columns -->
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

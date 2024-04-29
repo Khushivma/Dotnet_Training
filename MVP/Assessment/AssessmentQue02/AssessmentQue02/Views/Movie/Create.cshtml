@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Create", "Movies", FormMethod.Post))
+        {
+            @Html.LabelFor(model => model.Moviename)
+            @Html.TextBoxFor(model => model.Moviename)
+            <br />
+
+            @Html.LabelFor(model => model.DateofRelease)
+            @Html.TextBoxFor(model => model.DateofRelease, new { type = "date" })
+            <br />
+
+            <input type="submit" value="Create" />
+        }
+    </div>
+</body>
+</html>
+

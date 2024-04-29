@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("Edit", "Movies", FormMethod.Post))
+        {
+            @Html.HiddenFor(model => model.Mid)
+
+            @Html.LabelFor(model => model.Moviename)
+            @Html.TextBoxFor(model => model.Moviename)
+            <br />
+
+            @Html.LabelFor(model => model.DateofRelease)
+            @Html.TextBoxFor(model => model.DateofRelease, new { type = "date" })
+            <br />
+
+            <input type="submit" value="Save" />
+        }
+    </div>
+</body>
+</html>
+
